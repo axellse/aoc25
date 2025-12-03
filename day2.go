@@ -10,7 +10,7 @@ import (
 	"strings"
 )
 
-func main() {
+func main2() {
 	input, err := os.ReadFile("./input.txt")
 	if err != nil {
 		fmt.Println("input where?")
