@@ -17,7 +17,7 @@ func IndexOf(haystack []int, needle int) int {
     return -1
 }
 
-func main() {
+func main3() {
 	input, err := os.ReadFile("./input.txt")
 	if err != nil {
 		fmt.Println("input where?")
