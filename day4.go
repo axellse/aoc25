@@ -34,7 +34,7 @@ func compute(rows []string) (total int, removed [][2]int) {
 	return
 }
 
-func main() {
+func main4() {
 	input, err := os.ReadFile("./input.txt")
 	if err != nil {
 		fmt.Println("input where?")
